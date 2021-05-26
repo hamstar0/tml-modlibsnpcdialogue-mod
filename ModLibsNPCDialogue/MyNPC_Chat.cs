@@ -7,9 +7,9 @@ using ModLibsCore.Services.Timers;
 using ModLibsNPCDialogue.Services.Dialogue;
 
 
-namespace HamstarHelpers {
+namespace ModLibsNPCDialogue {
 	/// @private
-	partial class ModHelpersNPC : GlobalNPC {
+	partial class ModLibsNPCDialogueNPC : GlobalNPC {
 		public override void GetChat( NPC npc, ref string chat ) {
 			this.GetModdedDialogue( npc, ref chat );
 		}
@@ -17,7 +17,7 @@ namespace HamstarHelpers {
 		public override void OnChatButtonClicked( NPC npc, bool firstButton ) {
 			if( npc.type == NPCID.Guide ) {
 				if( firstButton ) {
-					Timers.SetTimer( "ModHelpersGuideHelp", 1, false, () => {
+					Timers.SetTimer( "ModLibsGuideHelp", 1, false, () => {
 						this.GetNonDynamicModdedDialogue( npc, ref Main.npcChatText );
 						return false;
 					} );

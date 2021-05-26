@@ -40,7 +40,7 @@ namespace ModLibsNPCDialogue.Services.Dialogue {
 				.ToDictionary( n => n.type, n => n.whoAmI );
 
 			foreach( (int townNpcType, int townNpcWho) in townNpcWhos ) {
-				string alertId = "ModHelpersDialogueAlert_" + townNpcType;
+				string alertId = "ModLibsDialogueAlert_" + townNpcType;
 
 				if( dynHandlers.ContainsKey(townNpcType) && (dynHandlers[townNpcType].IsShowingAlert?.Invoke() ?? false) ) {
 					NPC npc = Main.npc[townNpcWho];

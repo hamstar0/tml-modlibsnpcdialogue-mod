@@ -8,9 +8,9 @@ using ModLibsGeneral.Services.AnimatedColor;
 using ModLibsNPCDialogue.Services.Dialogue;
 
 
-namespace HamstarHelpers {
+namespace ModLibsNPCDialogue {
 	/// @private
-	partial class ModHelpersNPC : GlobalNPC {
+	partial class ModLibsNPCDialogueNPC : GlobalNPC {
 		public override void PostDraw( NPC npc, SpriteBatch sb, Color drawColor ) {
 			if( !npc.townNPC ) {
 				return;
