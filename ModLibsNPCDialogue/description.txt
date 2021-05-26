@@ -1,0 +1,1 @@
+Supplies services for giving NPCs dialogue alerts and custom dialogue messages.
