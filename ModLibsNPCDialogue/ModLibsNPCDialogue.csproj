@@ -18,7 +18,7 @@
       <HintPath>..\..\..\Mod Libs Core\Project\ModLibsCore\bin\Release\net452\ModLibsCore.dll</HintPath>
     </Reference>
     <Reference Include="ModLibsGeneral">
-      <HintPath>..\..\..\Mod Libs General Libraries and Services\Project\ModLibsGeneral\bin\Release\net452\ModLibsGeneral.dll</HintPath>
+      <HintPath>..\..\..\Mod Libs General\Project\ModLibsGeneral\bin\Release\net452\ModLibsGeneral.dll</HintPath>
     </Reference>
     <Reference Include="ModLibsMaps">
       <HintPath>..\..\..\Mod Libs Services Maps\Project\ModLibsMaps\bin\Release\net452\ModLibsMaps.dll</HintPath>

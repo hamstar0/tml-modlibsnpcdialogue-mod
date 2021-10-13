@@ -45,7 +45,7 @@ namespace ModLibsNPCDialogue.Services.Dialogue {
 				if( dynHandlers.ContainsKey(townNpcType) && (dynHandlers[townNpcType].IsShowingAlert?.Invoke() ?? false) ) {
 					NPC npc = Main.npc[townNpcWho];
 
-					MapMarkers.SetFullScreenMapMarker(
+					MapMarkersAPI.SetFullScreenMapMarker(
 						id: alertId,
 						tileX: ((int)npc.Center.X / 16),
 						tileY: ((int)npc.Center.Y / 16) - 3,
@@ -53,7 +53,7 @@ namespace ModLibsNPCDialogue.Services.Dialogue {
 						scale: 1.35f
 					);
 				} else {
-					MapMarkers.RemoveFullScreenMapMarker( alertId );
+					MapMarkersAPI.RemoveFullScreenMapMarker( alertId );
 				}
 			}
 		}

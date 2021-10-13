@@ -1,6 +1,6 @@
 displayName = Mod Libs - Services - NPC Dialogue
 author = hamstar
-version = 1.0.0
-modReferences = ModLibsCore@1.0.0, ModLibsGeneral@1.0.0, ModLibsMaps@1.0.0
+version = 1.0.0.1
+modReferences = ModLibsCore@1.2.0, ModLibsGeneral@1.2.0, ModLibsMaps@2.0.0
 buildIgnore = *.csproj, *.user, *.bat, obj\*, bin\*, .vs\*, .git\*
 homepage = https://forums.terraria.org/index.php?threads/hamstars-mods-past-present-and-future.63713/
